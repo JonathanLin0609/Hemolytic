@@ -25,24 +25,17 @@ Modify main_predict.py for your data set in fasta format
     
     ![prob](https://github.com/csh07/HEPAD/assets/145912636/9fbba106-faf9-4dc4-9455-775f32463b90)
 
-When dataset = 'Hmp1', the program will use models trained on Hmp1, corresponding features, and their normalization scaler to process data and perform prediction.
+When dataset = 'DS1', the program will use models trained on Database1, corresponding features, and their normalization scaler to process data and perform prediction.
 
-When dataset = 'Hmp2', the program will use models trained on Hmp2, corresponding features, and their normalization scaler to process data and perform prediction.
+When dataset = 'DS2', the program will use models trained on Database2, corresponding features, and their normalization scaler to process data and perform prediction.
 
-When dataset = 'Hmp3', the program will use models trained on Hmp3, corresponding features, and their normalization scaler to process data and perform prediction.
-
-When dataset = 'Hmpm', the program will use models trained on Hmpm, corresponding features, and their normalization scaler to process data and perform prediction.
 ```py
 # If you want to use a different model, you can change the dataset
-dataset = 'Hmpm'
-if dataset == 'Hmp1':
+dataset = 'DS1'
+if dataset == 'DS1':
     model_use = '1'
-elif dataset == 'Hmp2':
+elif dataset == 'DS2':
     model_use = '2'
-elif dataset == 'Hmp3':
-    model_use = '3'
-elif dataset == 'Hmpm':
-    model_use = '4'
 ```
 
 ```py
