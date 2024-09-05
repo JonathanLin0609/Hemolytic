@@ -1,5 +1,5 @@
-# HEPAD
-HEPAD: Enhancing Hemolytic Peptide Prediction with Adaptive Feature Engineering and Diverse Sequence Descriptors
+# IHEPC
+IHEPC: Improved hemolytic peptide prediction with comprehensive hemolytic peptide sequences
 
 # Description
 This is the source code of HEPAD, a machine-learning predictor for Hemolytic peptides. The trained models are also included in this package, facilitating prediction on a given data set.
