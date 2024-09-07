@@ -1,4 +1,4 @@
-from userPackage.Package_IHEPC import IHEPC_Predict
+from userPackage.Package_IHPP import IHPP_Predict
 
 # If you want to use a different model, you can change the dataset
 dataset = 'DS2'
@@ -17,7 +17,7 @@ pathDict = {'paramPath': f'../data/param/{dataset}/',  # This path should have f
 # Input your FASTA file, the example file can find in data/mlData/DS1/test_neg.FASTA
 inputPathList = [f'../data/mlData/{dataset}/test_neg.FASTA', f'../data/mlData/{dataset}/test_pos.FASTA']
 
-encapObj = IHEPC_Predict(model_use=model_use, pathDict=pathDict)
+encapObj = IHPP_Predict(model_use=model_use, pathDict=pathDict)
 encapObj.loadData(inputDataList=inputPathList)
 encapObj.featureEncode()
 encapObj.doPredict()
