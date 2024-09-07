@@ -4,7 +4,7 @@ import pandas as pd
 from MLProcess.PycaretWrapper import PycaretWrapper
 from MLProcess.Predict import Predict
 
-class IHEPC_Predict:
+class IHPP_Predict:
     def __init__(self, model_use, pathDict):
         self.model_use = model_use
         self.pathDict = pathDict
